@@ -42,38 +42,16 @@ For the Itinerary APIs (v1.1), full API documentation, and apps that use the API
 
 Mash-up  | Idea
 ------------- | -------------
-**Concur + Yodlee** | Mashup [Yodlee's Aggregation API](https://developer.yodlee.com/Hackathons/Disrupt_SF_2014) and Concur's Itinerary API to filter transactions related to the trip. A report can then be generated showing spend trends.
-**Concur + Weather Wunderground** | Predict [weather](http://www.wunderground.com/weather/api/) using Concur traveler's destination and date
-**Concur + Esri** | Use [Esri's](https://developers.arcgis.com/) different mapping layers/functionalities to add visual context to a Concur user's destination (e.g. POIs that match a Concur user's expense habits - coffee shops)
-**Concur + Evernote** | Image receipts saved in an [Evernote](http://dev.evernote.com/) folder are OCR'd and sent to Concur as Quick Expense. Image files are also automatically uploaded to Concur's [ReceiptImage API](https://www.concursolutions.com/api/docs/index.html#!/ReceiptImages)
-**Concur + Clover** | 
-**Concur + Crunchbase** |
-**Concur + DigitalOcean** |
-**Concur + EvoSnap** |
-**Concur + Mashery** |
-**Concur + Moxtra** |
-**Concur + New Relic** |
-**Concur + Pearson** |
-**Concur + Pebble** |
-**Concur + Peel** |
-**Concur + Snich** |
-**Concur + Twilio** |
-**Concur + Twitter** |
-**Concur + Yammer** | 
-**Concur + smartwatch/ring**  | Use smartwatch/ring to confirm if Mastercard purchase line item should be sent to Concur as expense (or ignored if personal purchase); Display QR code to POS reader to send purchase as expense to Concur
-**Concur + beacons/indoor position**  | Use Concur user's expense history to push relevant proximity ads/recommendations; Determine walk-time to gate based on Itinerary info
-**Concur + credit/debit card**  | Use smartwatch/ring to confirm if Mastercard purchase line item should be sent to Concur as expense (or ignored if personal purchase)
-**Concur + parking** | User Concur itinerary info (hotel/flight booking) to find fastest route to parking
-**Concur + wifi service** | Identify if colleagues are on same flight and initiate chat session
+**Concur + Ford OpenXC** | Capture [OpenXC](https://developer.ford.com/pages/openxc) latitude and longitude information to automatically submit accurate car mileage expense to Concur
+**Concur + Ford AppLink** | Get Concur itinerary from phone...
+
 
 Find more app ideas [here](https://github.com/ismaelc/ConcurSharingEconomyHack#example)
 
 Incentives
 --
 
-- Maximum $1,000 worth of gift cards: Best Use of Concur API – App that demonstrates the best use of Concur APIs. Prize distribution is $200 to each winning team member.
-- Free passes to The Perfect Trip DevCon event worth $99 per ticket for teams (1 ticket per team) that demonstrate the best of the Concur API + co-sponsor API onstage.  For example, Best use of Concur + Yodlee, Best use of Concur + Pebble, and so on. **Co-sponsors will be announced soon**. Selected finalists get to pitch for a shot at $100K in prizes (https://developer.concur.com/devcon/PerfectTripFundAwards)
-
+- To be announced soon!
 
 <a name="addl">Additional Information</a>
 --
@@ -83,9 +61,9 @@ The subsections below provide a more detailed information on how to:
   - [POST/GET dummy data to/from Concur](#dummy)
   - [Sample code](#samplecode)
   - [Example apps in the App Center and previous hackathons](#example)
-  - **Stuck?**  Contact Chris!
-    - *chris.ismael@concur.com*
-    - *@ConcurAPI* or *@chrispogeek*
+  - **Stuck?**  Contact Mithun!
+    - *mithun.dhar@concur.com*
+    - *@ConcurAPI*
 
 
  <a name="token">**Generate an access token**</a>
@@ -93,7 +71,7 @@ The subsections below provide a more detailed information on how to:
 
   1. **Get your Consumer Key**  
 
- After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token. (**Note: Get your Concur login/password from Chris at the Concur booth or email him at chris.ismael@concur.com**)
+ After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token. (**Note: Get your Concur login/password from Mithun at the Concur booth or email him at mithun.dhar@concur.com**)
 
   <img src='http://chrispogeek.files.wordpress.com/2014/01/untitled.png' width="600px" />
 
